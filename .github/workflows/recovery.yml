@@ -13,10 +13,10 @@ on:
   workflow_dispatch:
 
 env:
-  MANIFEST: git@github.com:minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
-  DEVICE: r9q
-  DT_LINK: https://github.com/klabit87/android_device_samsung_r9q
-  DT_PATH: device/samsung/r9q
+  MANIFEST: https://github.com/PitchBlackRecoveryProject/manifest_pb -b android-12.1
+  DEVICE: mojito
+  DT_LINK: https://github.com/TeamWin/android_device_xiaomi_mojito
+  DT_PATH: device/xiaomi/mojito
   TARGET: recoveryimage
   OUTPUT: recovery.img
 
