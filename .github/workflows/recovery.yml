@@ -13,12 +13,12 @@ on:
   workflow_dispatch:
 
 env:
-  MANIFEST: https://github.com/PitchBlackRecoveryProject/manifest_pb -b android-12.1
-  DEVICE: mojito
-  DT_LINK: https://github.com/TeamWin/android_device_xiaomi_mojito
-  DT_PATH: device/xiaomi/mojito
-  TARGET: recoveryimage
-  OUTPUT: recovery.img
+  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp -b twrp-12.1
+  DEVICE: Infinix-X6835B
+  DT_LINK: https://github.com/Manaenkov99/android_device_infinix_Infinix-X6835B
+  DT_PATH: device/infinix/Infinix-X6835B
+  TARGET: bootimage
+  OUTPUT: boot.img
 
 jobs:
   build:
